@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+#card{
+    width: 600px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+#progress{
+    width: 100%;
+    background-color:grey;
+    border-radius: 10px;
+    height: 30px;
+}
+#growth{
+    height: 100%;
+    width: 0%;
+    background-color:royalblue;
+    border-radius: 50px;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+h1{
+    font-size: 70px;
+}
+button{
+    padding:10px ;
+    border-radius: 10px;
+    border: none;
+    background-color:green;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:active{
+    scale:0.9
+}

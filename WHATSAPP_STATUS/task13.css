@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allStatus{
+    width:400px;
+    height: 500px;
+    background-color: #222;
+    border-radius: 10px;
+    border: none;
+    /* padding: 10px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+}
+
+.statusbar h3{
+    font-size: 26px;
+    font-weight: 400;
+    padding: 15px;
+    color:#fff;
+}
+
+.allStatus .maindabba {
+    border-top: 2px solid gray;
+    overflow-y: auto;
+    height: 320px; 
+    padding-right: 10px;
+    padding-bottom: 10px;
+    /* margin-top: 10px; */
+    border-top: 2px solid #444;
+}
+.allStatus img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* margin-top: 10px; */
+    border: 2.5px solid rgb(8, 90, 8);
+}
+.dabba{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    padding: 10px;
+    /* border-bottom: 1px solid #333; */
+    transition: transform 0.3s ease;
+}
+/* .dabba:hover {
+    transform: scale(1.05);
+} */
+.detail h4{
+    color:white;
+    font-size: 20px;
+}
+.detail h6{
+    font-size: 20px;
+    color: #bbb;
+}
+.maindabba::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+.statusbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.statusbar .icon i{
+    /* filter: invert(1); */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.statusbar .icon i:hover {
+    transform: scale(1.2);
+}
+.full{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* background-color: aqua; */
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
